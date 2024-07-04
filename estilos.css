@@ -3,14 +3,9 @@ body{
     background-image: url(./imagenes/fondo.jpg);
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.listas{
-    display: flex;
+.color{
+    --bs-bg-opacity: 1;
+    background-color: rgba(232, 177, 150, 0.719) !important;
 }
 
 li{
@@ -41,5 +36,22 @@ li{
 
 .titulos h3{
     font-family:"Baskervville SC", serif;
+}
+
+.titulo{
+    font-family: "Playwrite CO", cursive;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+.targetas{
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px;
 }
 
