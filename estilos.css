@@ -1,0 +1,45 @@
+
+body{
+    background-image: url(./imagenes/fondo.jpg);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listas{
+    display: flex;
+}
+
+li{
+    font-family:"Baskervville SC", serif;
+    font-size: 23px;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.logo{
+    width: 130px;
+}
+
+.titulos{
+    text-align: center;
+    padding: 100px;
+}
+
+.titulos h1{
+    font-size: 60px;
+    font-family: "Playwrite CO", cursive;
+}
+
+.titulos h2{
+    font-size: 80px;
+    font-family:"Baskervville SC", serif;
+}
+
+.titulos h3{
+    font-family:"Baskervville SC", serif;
+}
+
