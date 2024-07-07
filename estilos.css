@@ -76,3 +76,20 @@ footer {
     width: 100%;
 
 }
+
+
+.pie{
+    position: absolute;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
+
