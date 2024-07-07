@@ -1,57 +1,83 @@
-
-body{
+body {
     background-image: url(./imagenes/fondo.jpg);
 }
 
-.color{
+.color {
     --bs-bg-opacity: 1;
     background-color: rgba(232, 177, 150, 0.719) !important;
 }
 
-li{
-    font-family:"Baskervville SC", serif;
+
+li {
+    font-family: "Baskervville SC", serif;
     font-size: 23px;
     list-style: none;
     margin-right: 50px;
 }
 
-.logo{
+.logo {
     width: 130px;
 }
 
-.titulos{
+.titulos {
     text-align: center;
-    padding: 100px;
+    padding: 190px;
 }
 
-.titulos h1{
-    font-size: 60px;
+.titulos h1 {
     font-family: "Playwrite CO", cursive;
+    font-size: 50px;
 }
 
-.titulos h2{
-    font-size: 80px;
-    font-family:"Baskervville SC", serif;
+.titulos h2 {
+    font-size: 70px;
+    font-family: "Baskervville SC", serif;
 }
 
-.titulos h3{
-    font-family:"Baskervville SC", serif;
+.titulos h3 {
+    font-family: "Baskervville SC", serif;
 }
 
-.titulo{
+.titulo {
     font-family: "Playwrite CO", cursive;
     text-align: center;
-    margin-top: 140px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
-.targetas{
+.targetas {
     margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.card{
+
+.margen {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex;
+    height: 300px;
+}
+
+
+.contenedor img {
+    padding: 25px;
     margin: 20px;
 }
 
+p {
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    color: beige;
+    text-align: center;
+    font-size: 16px;
+    bottom: 0;
+    width: 100%;
+
+}
