@@ -25,7 +25,7 @@ li {
 }
 
 .titulos h1 {
-    font-family: "Playwrite CO", cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 50px;
 }
 
@@ -39,16 +39,11 @@ li {
 }
 
 .titulo {
-    font-family: "Playwrite CO", cursive;
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 40px;
-}
-
-.targetas {
-    margin-top: 120px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 
